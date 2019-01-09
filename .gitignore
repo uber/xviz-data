@@ -1,0 +1,6 @@
+# IDE
+.idea
+.vscode
+.*.sw?
+
+.DS_Store
