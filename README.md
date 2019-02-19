@@ -5,6 +5,21 @@ The data provided in this repo is being processed into [XVIZ](https://github.com
 - [Kitti](http://www.cvlibs.net/datasets/kitti/raw_data.php)
 - [nuTonomy](https://www.nuscenes.org/download) 
 
+## Update dataset
+
+This repos is mainly used to demonstrate the capability of [`streetscape.gl`](https://github.com/uber/streetscape.gl), 
+it is not necessary to preserve the commit history. Also it is very costly for github to track the change of
+large data files. 
+
+So every time you updates this repo, do a squash commit instead.
+
+```bash
+git reset <first-commit> --hard // reset the commit history back to the first commit
+git add --all
+git commit -m "Update dataset" // Or your own message
+git push -f origin master // force update
+```
+
 ## How to convert
 
 - kitti
